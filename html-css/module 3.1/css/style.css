@@ -5,8 +5,8 @@
     url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.woff') format('woff'),
     url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.ttf') format('truetype'),
     url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.svg#web') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
 }
 * {
     margin: 0;
@@ -24,7 +24,6 @@ a {
 .wrapper {
     width: 1920px;
     margin: auto;
-    background-color: aquamarine;
 }
 .logo {
     display: block;
@@ -54,10 +53,16 @@ a {
     margin-bottom: 185px;
 }
 .round-but {
+    color: #fff;
+    font-size: 18px;
     display: block;
     width: 45px;
     height: 45px;
     margin: auto;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: #23232e;
+    padding-top: 7px;
 }
 .s2 {
     color: #000;
