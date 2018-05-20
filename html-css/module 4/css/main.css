@@ -1,0 +1,74 @@
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(81, 81, 81, 255);
+    margin-bottom: 92px;
+}
+.title::after {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 164px;
+    height: 7px;
+    background-color: rgba(26, 188, 156, 255);
+    margin-top: 32px;
+}
+.products {
+    margin-bottom: 105px;
+}
+.product-card {
+    display: block;
+    width: 255px;
+    height: 322px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 0;
+    color: #fff;
+    margin: 0 30px 30px 0;
+}
+.product-card:nth-child(4n+5) {
+    margin-right: 0;
+}
+.product-card:nth-last-child(-n+4) {
+    margin-bottom: 0;
+}
+.product-img {
+    width: 255px;
+    height: 282px;
+    padding: 25px;
+    background-color: #e9f0fd;
+}
+.product-name {
+    display: block;
+    float: left;
+    width: 82.5%;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: left;
+    background-color: #323232;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 13px;
+}
+.product-price {
+    display: block;
+    float: right;
+    width: 17.5%;
+    height: 40px;
+    background-color: #8c8c8c;
+    line-height: 38px;
+    text-align: center;
+    font-size: 18px;
+}
+.product-card:hover .product-name {
+    background-color: #1abc9c;
+}
+.product-card:hover .product-price {
+    background-color: #7fd9c7;
+}

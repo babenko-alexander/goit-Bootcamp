@@ -1,0 +1,50 @@
+.foot-title {
+    margin-bottom: 80px;
+}
+.article {
+    font-size: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(85, 82, 82, 255);
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+}
+.article:last-child {
+    margin-right: 0;
+}
+.article-img {
+    height: 262px;
+    width: 100%;
+    margin-bottom: 14px;
+}
+.article-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 29px;
+}
+.article-title::after {
+    display: block;
+    content: '';
+    width: 136px;
+    height: 3px;
+    background-color: rgba(26, 188, 156, 255);
+    margin-top: 11px;
+}
+.article-p {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.article-but {
+    width: 159px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: rgba(26, 188, 156, 255);
+    border: 1px solid rgba(26, 188, 156, 255);
+    border-radius: 4px;
+}
+.article-but:hover {
+    transform: scale(1.2, 1.2) translatex(13px);
+}
