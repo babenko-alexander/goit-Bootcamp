@@ -19,7 +19,6 @@ header {
     float: right;
     text-transform: uppercase;
     height: 35px;
-    padding-top: 10px;
 }
 .navi-item {
     font-family: 'Roboto', sans-serif;
@@ -27,6 +26,7 @@ header {
     font-weight: 900;
     color: #000;
     margin-right: 35px;
+    line-height: 35px;
 }
 .navi-item:last-child {
     margin-right: 1px;
