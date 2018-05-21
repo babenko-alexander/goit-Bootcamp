@@ -22,15 +22,21 @@ p {
 .wrapper {
     width: 900px;
     margin: auto;
-    padding-top: 30px;
+    padding-top: 77px;
+    padding-bottom: 70px;
 }
 header {
-    margin-bottom: 40px;
+    margin-bottom: 103px;
 }
 .navi {
     display: inline-block;
-    margin: 20px;
     margin-right: 80px;
+}
+.navi:last-child {
+    margin-right: 0;
+}
+a:hover {
+    color: #03a9f4;
 }
 img {
     width: 420px;
@@ -66,8 +72,14 @@ main {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-button {
+.but {
     display: block;
-    margin: 40px auto;
+    margin: 40px auto 0;
     font-size: 14px;
+    width: 164px;
+    height: 60px;
+    border: 2px solid rgba(98, 98, 98, 255);
+    font-size: 20px;
+    color: rgba(98, 98, 98, 255);
+    background-color: #fff;
 }
