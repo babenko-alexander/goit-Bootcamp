@@ -34,6 +34,7 @@ body {
     color: #fff;
     line-height: 50px;
     padding-left: 15px;
+    position: relative;
 }
 .logo {
     color: #fff;
@@ -69,13 +70,12 @@ body {
 .menu-1, .menu-2, .menu-3, .menu-4 {
     display: none;
     position: absolute;
-}
-.menu-1 {
     background-color: #fff;
     color: var(--item-color);
 }
-.menu-item:hover {
+.menu-item:hover, .menu-1-item:hover, .menu-2-item:hover, .menu-3-item:hover {
     background-color: var(--hover-color);
+    color: var(--item-hover-color);
 }
 .menu-item:hover > .menu-1 {
     display: block;
@@ -83,9 +83,30 @@ body {
     top: 100%;
     width: 140%;
 }
+.menu-1-item, .menu-2-item, .menu-3-item, .menu-4-item {
+    position: relative;
+    line-height: 53px;
+}
 .menu-1-item:hover .menu-2{
     display: block;
     top: 0;
     left: 100%;
     width: 100%;
 }
+.menu-2-item:hover .menu-3{
+    display: block;
+    top: 0;
+    left: 100%;
+    width: 100%;
+}.menu-3-item:hover .menu-4{
+     display: block;
+     top: 0;
+     left: 100%;
+     width: 100%;
+ }
+ .right-arrow {
+     position: absolute;
+     top: 0;
+     left: 85%;
+     /*transform: translate (-100%, 0);*/
+ }
