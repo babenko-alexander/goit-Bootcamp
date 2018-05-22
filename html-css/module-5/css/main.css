@@ -1,0 +1,111 @@
+
+
+
+.wrapper-collection {
+    background-color: #e9f0fd;
+}
+.coll-title {
+    font-size: 48px;
+    line-height: 48px;
+    color: #515151;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 81px;
+}
+.coll-title::after {
+    content: '';
+    display: block;
+    width: 164px;
+    height: 7px;
+    margin: auto;
+    background-color: #1abc9c;
+    margin-top: 32px;
+}
+.coll-box {
+    width: 1110px;
+    margin: auto;
+    background-color: #ff0;
+}
+.coll-item {
+    width: 255px;
+    height: 322px;
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+.coll-item:last-child {
+    margin-right: 0;
+}
+.item-img {
+    display: inline-block;
+    width: 255px;
+    height: 281px;
+}
+.item-text {
+    height: 41px;
+}
+.item-name {
+    display: inline-block;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+    line-height: 41px;
+    width: 75%;
+    background-color: #323232;
+    text-transform: uppercase;
+    padding-left: 14px;
+}
+.item-price {
+    display: inline-block;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    line-height: 41px;
+    width: 25%;
+    background-color: #8c8c8c;
+}
+.item-shadow {
+    position: absolute;
+    width: 255px;
+    height: 281px;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.6);
+    border: 10px solid rgba(255, 255, 255, 1);
+    padding-top: 85px;
+}
+.icons {
+    width: 166px;
+    height: 107px;
+    margin: auto;
+}
+.icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 7px;
+    border: 2px solid #fff;
+}
+.icon:nth-child(3) {
+    margin-right: 0;
+}
+.basket {
+    width: 166px;
+    height: 50px;
+}
+.symbol {
+    width: 25px;
+    height: 25px;
+    line-height: 50px;
+    background-color: #fff;}
+.icon-text {
+    width: 114px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+}
