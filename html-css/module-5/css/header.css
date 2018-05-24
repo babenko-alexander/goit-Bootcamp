@@ -1,0 +1,43 @@
+.header {
+    background-color: #fff;
+}
+.wrapper-header {
+    width: 1110px;
+    margin: auto;
+    position: relative;
+    padding: 40px 0;
+    color: #000;
+}
+.mart {
+    display: block;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #555252;
+}
+.mart::first-letter {
+    color: rgb(26, 188, 156);
+}
+.nav {
+    display: inline-block;
+    text-align: right;
+    margin-left: auto;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.nav-item {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+.nav-item:hover {
+    color: rgb(26, 188, 156);
+    cursor: pointer;
+}
+.nav-item:last-child {
+    margin-right: 0;
+}

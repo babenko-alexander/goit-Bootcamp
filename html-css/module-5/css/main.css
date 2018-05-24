@@ -1,8 +1,66 @@
+/*----------TOURS----------*/
+
+.wrapper-tours {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.tours-sec {
+    width: 1110px;
+    margin: auto;
+    text-transform: uppercase;
+    position: relative;
+}
+.tours-text-box {
+    width: 800px;
+    margin: auto;
+    padding: 220px 0 285px;
+}
+.tours-title {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.tours-text {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+.but {
+    width: 104px;
+    height: 104px;
+    background-color: #1abc9c;
+    text-align: center;
+    line-height: 96px;
+    position: absolute;
+    border: none;
+    font-size: 70px;
+    color: #fff;
+}
+.left-but {
+    left: 0;
+    top: 240px;
+}
+.right-but {
+    right: 0;
+    top: 240px;
+}
+
+/*----------COLLECTION----------*/
 
 
-
-.wrapper-collection {
+wrapper-collection {
     background-color: #e9f0fd;
+    /*padding: 100px 0 100px;*/
+}
+.coll-sec {
+    width: 1110px;
+    margin: auto;
+    padding: 101px 0 97px;
+    /*background-color: #ff0;*/
 }
 .coll-title {
     font-size: 48px;
@@ -20,11 +78,6 @@
     margin: auto;
     background-color: #1abc9c;
     margin-top: 32px;
-}
-.coll-box {
-    width: 1110px;
-    margin: auto;
-    background-color: #ff0;
 }
 .coll-item {
     width: 255px;
@@ -73,6 +126,7 @@
     background-color: rgba(50, 50, 50, 0.6);
     border: 10px solid rgba(255, 255, 255, 1);
     padding-top: 85px;
+    display: none;
 }
 .icons {
     width: 166px;
@@ -85,21 +139,33 @@
     height: 50px;
     margin-right: 7px;
     border: 2px solid #fff;
+    position: relative;
+    background-color: rgb(255, 255, 255, 0.5);
 }
 .icon:nth-child(3) {
     margin-right: 0;
 }
-.basket {
+.basket > .icon {
+    border: none;
+    height: 48px;
+}
+.basket  {
     width: 166px;
     height: 50px;
+    margin-top: 7px;
+    border: 2px solid #fff;
+    background-color: #323232;
 }
 .symbol {
     width: 25px;
     height: 25px;
     line-height: 50px;
-    background-color: #fff;}
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .icon-text {
-    width: 114px;
     height: 50px;
     line-height: 50px;
     vertical-align: top;
@@ -108,4 +174,20 @@
     color: rgba(255, 255, 255, 255);
     text-align: center;
     text-transform: uppercase;
+}
+.coll-item:hover .item-shadow {
+    display: block;
+}
+.coll-item:hover .item-name {
+    background-color: #1abc9c;
+}
+.coll-item:hover .item-price {
+     background-color: #7fd9c7;
+ }
+.icons > .icon:hover {
+    background-color: #1abc9c;
+    border: 2px solid #1abc9c;
+}
+.basket:hover {
+    background-color: #1abc9c;
 }
