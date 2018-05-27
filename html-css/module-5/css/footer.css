@@ -1,0 +1,19 @@
+.footer {
+    background-color: #323232;
+}
+.wrapper-footer {
+    width: 1110px;
+    margin: auto;
+    font-size: 16px;
+}
+.cr {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    padding: 38px 0 33px;
+}
+.green-cr {
+    color: #1abc9c;
+}

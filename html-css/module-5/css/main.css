@@ -1,0 +1,193 @@
+/*----------TOURS----------*/
+
+.wrapper-tours {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.tours-sec {
+    width: 1110px;
+    margin: auto;
+    text-transform: uppercase;
+    position: relative;
+}
+.tours-text-box {
+    width: 800px;
+    margin: auto;
+    padding: 220px 0 285px;
+}
+.tours-title {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.tours-text {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+.but {
+    width: 104px;
+    height: 104px;
+    background-color: #1abc9c;
+    text-align: center;
+    line-height: 96px;
+    position: absolute;
+    border: none;
+    font-size: 70px;
+    color: #fff;
+}
+.left-but {
+    left: 0;
+    top: 240px;
+}
+.right-but {
+    right: 0;
+    top: 240px;
+}
+
+/*----------COLLECTION----------*/
+
+
+wrapper-collection {
+    background-color: #e9f0fd;
+    /*padding: 100px 0 100px;*/
+}
+.coll-sec {
+    width: 1110px;
+    margin: auto;
+    padding: 101px 0 97px;
+    /*background-color: #ff0;*/
+}
+.coll-title {
+    font-size: 48px;
+    line-height: 48px;
+    color: #515151;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 81px;
+}
+.coll-title::after {
+    content: '';
+    display: block;
+    width: 164px;
+    height: 7px;
+    margin: auto;
+    background-color: #1abc9c;
+    margin-top: 32px;
+}
+.coll-item {
+    width: 255px;
+    height: 322px;
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+.coll-item:last-child {
+    margin-right: 0;
+}
+.item-img {
+    display: inline-block;
+    width: 255px;
+    height: 281px;
+}
+.item-text {
+    height: 41px;
+}
+.item-name {
+    display: inline-block;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+    line-height: 41px;
+    width: 75%;
+    background-color: #323232;
+    text-transform: uppercase;
+    padding-left: 14px;
+}
+.item-price {
+    display: inline-block;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    line-height: 41px;
+    width: 25%;
+    background-color: #8c8c8c;
+}
+.item-shadow {
+    position: absolute;
+    width: 255px;
+    height: 281px;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.6);
+    border: 10px solid rgba(255, 255, 255, 1);
+    padding-top: 85px;
+    display: none;
+}
+.icons {
+    width: 166px;
+    height: 107px;
+    margin: auto;
+}
+.icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 7px;
+    border: 2px solid #fff;
+    position: relative;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+.icon:nth-child(3) {
+    margin-right: 0;
+}
+.basket > .icon {
+    border: none;
+    height: 48px;
+}
+.basket  {
+    width: 166px;
+    height: 50px;
+    margin-top: 7px;
+    border: 2px solid #fff;
+    background-color: #323232;
+}
+.symbol {
+    width: 25px;
+    height: 25px;
+    line-height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-text {
+    height: 50px;
+    line-height: 50px;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+}
+.coll-item:hover .item-shadow {
+    display: block;
+}
+.coll-item:hover .item-name {
+    background-color: #1abc9c;
+}
+.coll-item:hover .item-price {
+     background-color: #7fd9c7;
+ }
+.icons > .icon:hover {
+    background-color: #1abc9c;
+    border: 2px solid #1abc9c;
+}
+.basket:hover {
+    background-color: #1abc9c;
+}
