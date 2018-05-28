@@ -12,7 +12,7 @@
     justify-content: space-between;
 }
 .serv-item {
-    width: 17.125rem;
+    flex-basis: 17.125rem;
 }
 .serv-img-box {
     width: 4.25rem;

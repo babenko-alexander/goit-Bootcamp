@@ -1,17 +1,19 @@
+.header {
+    padding-top: 2.75rem;
+    margin-bottom: 7.5rem;
+}
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2.75rem;
-    margin-bottom: 7.5rem;
 }
 .logo {
     width: 4.9375rem;
     height: 1.75rem;
-    background-image: url(../img/logo.png);
+    background-image: url(../img/Logo.png);
 }
 .nav {
-    width: 50%;
+    flex-basis: 50%;
     display: flex;
     justify-content: space-between;
     font-family: 'Montserrat', SansSerif;
