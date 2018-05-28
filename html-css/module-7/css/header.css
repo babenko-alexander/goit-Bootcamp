@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 2.75rem;
+    margin-bottom: 7.5rem;
 }
 .logo {
     width: 4.9375rem;
@@ -21,4 +22,7 @@
 .nav-item {
     line-height:; 0.65625rem;
     color: var(--blackColor);
+}
+.nav-item:hover {
+    color: var(--goldenColor);
 }

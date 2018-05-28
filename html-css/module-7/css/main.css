@@ -1,0 +1,42 @@
+.main-wrapper {
+    padding-bottom: 7.5rem;
+}
+.main-title {
+    color: var(--blackColor);
+}
+.serv-sub-title {
+    margin-bottom: 5rem;
+}
+.serv-box {
+    display: flex;
+    justify-content: space-between;
+}
+.serv-item {
+    width: 17.125rem;
+}
+.serv-img-box {
+    width: 4.25rem;
+    height: 4.25rem;
+    border: 0.1875rem solid var(--goldenColor);
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.75rem;
+}
+.serv-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    text-transform: capitalize;
+    color: var(--blackColor);
+    text-align: center;
+    margin-bottom: 1.125rem;
+}
+.serv-text {
+    font-family: 'Roboto Slab', Serif;
+    font-size: 0.875rem;
+    color: var(--greyColor);
+    text-align: center;
+}

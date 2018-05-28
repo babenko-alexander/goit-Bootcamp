@@ -22,26 +22,28 @@
     </div>
 </header>
 <main class="main">
-    <div class="wrapper">
-        <h2 class="title serv-title">services</h2>
+    <div class="wrapper main-wrapper">
+        <h2 class="title main-title">services</h2>
         <h3 class="sub-title serv-sub-title">Proin iaculis purus consequat sem cure.</h3>
         <div class="serv-box">
             <div class="serv-item">
-                <div class="serv-img"></div>
+                <div class="serv-img-box">
+                    <img src="img/Icon-Basket.png" alt="#" class="serv-img">
+                </div>
                 <h4 class="serv-title">e-commerce</h4>
                 <p class="serv-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
             </div>
-        </div>
-        <div class="serv-box">
             <div class="serv-item">
-                <div class="serv-img"></div>
+                <div class="serv-img-box">
+                    <img src="img/Icon-Laptop.png" alt="#" class="serv-img">
+                </div>
                 <h4 class="serv-title">responsive web</h4>
                 <p class="serv-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
             </div>
-        </div>
-        <div class="serv-box">
             <div class="serv-item">
-                <div class="serv-img"></div>
+                <div class="serv-img-box">
+                    <img src="img/Icon-Locked.png" alt="#" class="serv-img">
+                </div>
                 <h4 class="serv-title">web security</h4>
                 <p class="serv-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
             </div>
@@ -49,19 +51,21 @@
     </div>
 </main>
 <footer class="footer">
-    <img src="img/Map Image.png" alt="#">
-    <div class="wrapper">
+    <img src="img/Map Image.png" alt="#" class="map">
+    <div class="wrapper foot-wrapper">
         <h2 class="title foot-title">contact us</h2>
         <h3 class="sub-title foot-sub-title">Proin iaculis purus consequat sem cure.</h3>
-        <div class="input-box">
-            <form action="#" method="post" class="user-contacts-form">
-                <input type="name" name="username: " placeholder="your name *" class="input-line">
-                <input type="email" name="eserEmail: " placeholder="your e-mail *" class="input-line">
-                <input type="text" name="userSubject: " placeholder="subject" class="input-line">
-                <textarea name="userMassage: " id="#" cols="30" rows="10" placeholder="your message *"></textarea>
-                <input type="submit" value="send message" class="submit-but">
-            </form>
-        </div>
+        <form action="#" method="post" class="user-contacts-form">
+            <div class="input-box">
+                <div class="input-line-box">
+                    <input type="name" name="username: " placeholder="your name *" required class="input-line req">
+                    <input type="email" name="eserEmail: " placeholder="your e-mail *" required class="input-line req">
+                    <input type="text" name="userSubject: " placeholder="subject" class="input-line">
+                </div>
+                <textarea name="userMassage: " id="#" cols="30" rows="10" placeholder="your message *" required class="input-area req"></textarea>
+            </div>
+            <input type="submit" value="send message" class="submit-but">
+        </form>
     </div>
 </footer>
 </body>
