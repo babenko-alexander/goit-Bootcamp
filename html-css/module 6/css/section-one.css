@@ -1,3 +1,6 @@
+.sect-one {
+    margin-bottom: 5.75rem;
+}
 .title-one {
     font-family: var(--title-one-font);
     font-size: 1.5rem;
@@ -28,10 +31,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 5.75rem;
 }
 .serv-item {
-    padding-bottom: 6.25rem;
+    margin-bottom: 6.25rem;
 }
 .serv-item:nth-last-child(-n+3) {
     padding-bottom: 0;

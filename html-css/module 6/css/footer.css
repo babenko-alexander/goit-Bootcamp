@@ -1,17 +1,19 @@
 
-.f-line::before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 0.0625rem;
-    background-color: #e5e5e5;
-    margin-bottom: 0.625rem;
-}
+/*.f-line::before {*/
+    /*content: '';*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*height: 0.0625rem;*/
+    /*background-color: #e5e5e5;*/
+    /*margin-bottom: 0.625rem;*/
+/*}*/
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 0.75rem;
+    /*padding-bottom: 0.75rem;*/
+    border-top: 0.0625rem solid #e5e5e5;
+    padding: 0.625rem 0 0.75rem;
 }
 .copyright {
     font-family: var(--title-two-font);
@@ -19,6 +21,7 @@
 }
 .redword {
     color: #f38181;
+    outline: none;
 }
 .input-box {
 

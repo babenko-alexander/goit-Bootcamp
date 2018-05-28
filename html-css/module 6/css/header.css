@@ -1,8 +1,9 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 1.75rem;
+    align-items: center;
     margin-bottom: 7.9375rem;
+    padding-top: 1.75rem;
 }
 .logo {
     font-family: var(--title-two-font);
@@ -15,7 +16,7 @@
     font-size: 0.875rem;
     font-weight: 400;
     text-transform: uppercase;
-    width: 40.83333%;
+    flex-basis: 40.83333%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +25,7 @@
 .nav-item {
     transition: 0.2s;
     color: var(--mainColor);
+    position: relative;
 }
 .nav-item::after {
     content: '';
@@ -31,8 +33,10 @@
     width: 100%;
     height: 0.1875rem;
     background-color: var(--additionalColor);
-    margin-top: 0.75rem;
+    /*margin-top: 0.75rem;*/
     opacity: 0;
+    position: absolute;
+    bottom: -0.75rem;;
 }
 .nav-item:hover::after {
     opacity: 1;
