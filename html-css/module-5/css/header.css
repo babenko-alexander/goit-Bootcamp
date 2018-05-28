@@ -20,9 +20,9 @@
     color: rgb(26, 188, 156);
 }
 .nav {
-    display: inline-block;
-    text-align: right;
-    margin-left: auto;
+    /*display: inline-block;*/
+    /*text-align: right;*/
+    /*margin-left: auto;*/
     position: absolute;
     top: 50px;
     right: 0;
@@ -33,6 +33,7 @@
     text-align: right;
     text-transform: uppercase;
     margin-right: 30px;
+    outline: none;
 }
 .nav-item:hover {
     color: rgb(26, 188, 156);
@@ -40,4 +41,7 @@
 }
 .nav-item:last-child {
     margin-right: 0;
+}
+.nav-item:visited {
+    color: #000;
 }

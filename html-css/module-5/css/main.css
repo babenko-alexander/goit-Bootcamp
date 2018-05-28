@@ -68,7 +68,7 @@ wrapper-collection {
     color: #515151;
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 81px;
+    margin-bottom: 81px;
 }
 .coll-title::after {
     content: '';
@@ -125,13 +125,17 @@ wrapper-collection {
     left: 0;
     background-color: rgba(50, 50, 50, 0.6);
     border: 10px solid rgba(255, 255, 255, 1);
-    padding-top: 85px;
+    /*padding-top: 85px;*/
     display: none;
 }
 .icons {
     width: 166px;
     height: 107px;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*margin: auto;*/
+    transform: translate(-50%, -50%);
 }
 .icon {
     display: inline-block;

@@ -15,5 +15,8 @@
     padding: 38px 0 33px;
 }
 .green-cr {
+    font-size: 16px;
+    font-weight: 400;
     color: #1abc9c;
+    outline: none;
 }
