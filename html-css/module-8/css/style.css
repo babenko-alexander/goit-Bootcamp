@@ -17,20 +17,17 @@ a {
     padding: 0 1rem;
 }
 .wrapper-header {
-    background-image: url(../img/background.jpg);
+    background-image: linear-gradient(rgba(71,71,71,0.2), rgba(71,71,71,0.2)), url(../img/background.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     padding-top: 1.3125rem;
     padding-bottom: 8.6875rem;
 }
-/*.nav-box {*/
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-/*}*/
 .nav-box {
     display: flex;
     flex-direction: column-reverse;
+    margin-bottom: 2.375rem;
 }
 .logo {
     font-family: 'Montserrat', sans-serif;
@@ -38,7 +35,6 @@ a {
     font-size: 1.25rem;
     color: #fff;
     text-align: center;
-    margin-bottom: 2.375rem;
 }
 .nav {
     display: flex;
@@ -61,6 +57,7 @@ a {
 .h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    font-size: 1.875rem;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -93,38 +90,65 @@ a {
     background-color: #ff4e50;
 }
 .wrapper-main {
-    padding: 1.25rem 0 3.5rem;
+    padding: 4.25rem 0 3.625rem;
 }
 .title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.375rem;
     text-align: center;
-    margin-bottom: 1rem;
+    max-width: 16.125rem;
+    margin: 0 auto 1rem;
 }
 .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 1.8125rem;
+}
+.card {
+    flex-basis: 80%;
+    margin-bottom: 1.75rem;
+}
+.card:last-child {
+    margin-bottom: 0;
 }
 .avatar {
-    max-width: 50%;
-    position: relative;
+    max-width: 7.625rem;
     margin: auto;
-}
-.icon {
-
+    position: relative;
+    margin-bottom: 1.25rem;
 }
 .icon-label {
-    width: 2rem;
-    height: 2rem;
+    width: 2.3rem;
+    height: 2.3rem;
     position: absolute;
     bottom: 0;
     right: 0;
-    text-align: center;
-    line-height: 2.3rem;
-    border: 0.125rem solid #fff;
+    border: 0.25rem solid #fff;
     border-radius: 50%;
+}
+.label-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+}
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.card-text {
+    max-width: 13.625rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
+    color: #666666;
+    text-align: center;
+    margin: auto;
 }
 .l-one {
     background-color: #ff4e50;
@@ -135,9 +159,72 @@ a {
 .l-three {
     background-color: #1cd7ad;
 }
+.l-three > .label-img {
+    top: 42%;
+    left: 46%;
+}
 .l-four {
     background-color: #4e73db;
 }
-.label-img {
-
+.l-four > .label-img {
+    left: 43%;
+}
+@media (min-width: 768px) {
+    .wrapper-header {
+        padding: 2.88rem 3rem 14.625rem;
+    }
+    .nav-box {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10rem;
+    }
+    .h1 {
+        max-width: 32rem;
+        margin: 0 auto 1.8rem;
+        font-size: 3.25rem;
+    }
+    .nav {
+        margin-bottom: 0;
+    }
+    .wrapper-main {
+        padding: 4.5rem 6rem 3.5rem;
+    }
+    .title {
+        max-width: 26rem;
+    }
+    .h1-sub-title {
+        max-width: 24.875rem;
+        margin-bottom: 2.125rem;
+        font-size: 1.5rem;
+    }
+    .cards {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 1.8125rem;
+    }
+    .card {
+        flex-basis: 40%;
+        margin-bottom: 1.75rem;
+    }
+    .c-i {
+        order: -1;
+    }
+    .c-o {
+        order: -1;
+    }
+    .card:last-child {
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 1440px) {
+    .wrapper-main {
+        padding: 4.5rem 2rem 4rem;
+    }
+    .container {
+        padding: 0;
+    }
+    .card {
+        flex-basis: 25%;
+        margin-bottom: 0;
+    }
 }
