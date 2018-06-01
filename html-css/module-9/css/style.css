@@ -1,0 +1,177 @@
+/*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+.wrapper-header {
+    background-image: linear-gradient(rgba(71, 71, 71, 0.2), rgba(71, 71, 71, 0.2)), url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 1.3125rem;
+    padding-bottom: 8.6875rem;
+}
+.container {
+    max-width: 58.75rem;
+    margin: auto;
+    padding: 2.875rem 1rem 4.625rem;
+}
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.nav__item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    max-height:  2.25rem;
+    border: 0.125rem solid rgba(255, 255, 255, 0);
+    color: #fff;
+    border-radius: 2rem;
+    padding: 0.5rem 1.125rem;
+}
+.nav__item:hover {
+    border: 0.125rem solid #fff;
+}
+.slogan__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.1875rem;
+}
+.slogan__sub-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    font-size: 1.125rem;
+    max-width: 13.5625rem;
+    margin: 0 auto 1.1875rem;
+}
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #ff4e50;
+    background-color: #fff;
+}
+.btn--main {
+    display: block;
+    margin: auto;
+    width: 17.5rem;
+    height: 2.5rem;
+    border: 0.125rem solid #ff4e50;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: #ff4e50;
+}
+.team__btn {
+    display: block;
+    margin: auto;
+    width: 17.5rem;
+    height: 2.5rem;
+    border: 0.125rem solid #ff4e50;
+    border-radius: 2rem;
+}
+.card__avatar {
+    max-width: 7.625rem;
+    margin: auto;
+    position: relative;
+}
+.team__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.375rem;
+    text-align: center;
+}
+.card__label {
+    width: 2.3rem;
+    height: 2.3rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 0.25rem solid #fff;
+    border-radius: 50%;
+}
+.card__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+}
+.card__name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.card__text {
+    max-width: 13.625rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
+    color: #666666;
+    text-align: center;
+    margin: auto;
+}
+.card__label--one {
+    background-color: #ff4e50;
+}
+.card__label--two {
+    background-color: #ffa507;
+}
+.card__label--three {
+    background-color: #1cd7ad;
+}
+.card__label--three > .card__img {
+    top: 42%;
+    left: 47.5%;
+}
+.card__label--four {
+    background-color: #4e73db;
+}
+.card__label--four > .card__img {
+    left: 45%;
+}
+
+.header__cont {
+    display:  grid;
+    grid-template: repeat(8, 1fr) / repeat(2, 1fr);
+    grid-template-areas:
+            'n n'
+            '. .'
+            'l l'
+            's s'
+            's s'
+            'b b'
+            '. .'
+            '. .';
+}
+.g-logo {
+    grid-area: l;
+}
+.g-nav {
+    grid-area: n;
+}
+.slogan {
+    grid-area: s;
+}
+.g-btn {
+    grid-area: b;
+}
