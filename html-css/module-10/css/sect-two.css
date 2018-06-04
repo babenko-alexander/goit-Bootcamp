@@ -40,6 +40,8 @@
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
+    width: 100%;
+    height: 100%;
 }
 .sect-two__card:hover .sect-two__ava {
     opacity: 0;
@@ -75,6 +77,9 @@
     background-image: -webkit-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/1.png);
     background-image: -o-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/1.png);
     background-image: linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     opacity: 1;
 }
 .sect-two__card:hover .sect-two__overlay-two {
@@ -84,6 +89,9 @@
     background-image: -webkit-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/2.png);
     background-image: -o-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/2.png);
     background-image: linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     opacity: 1;
 }
 .sect-two__card:hover .sect-two__overlay-three {
@@ -93,6 +101,9 @@
     background-image: -webkit-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/3.png);
     background-image: -o-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/3.png);
     background-image: linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     opacity: 1;
 }
 .sect-two__icon {
