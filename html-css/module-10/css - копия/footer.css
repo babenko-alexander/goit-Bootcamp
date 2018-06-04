@@ -1,0 +1,34 @@
+.footer > .container {
+    padding: 0.625rem 0 0.625rem;
+    border-top: 0.1rem solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyrights {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.copyrights--link {
+    color: #ee8a8a;
+}
+.get-email {
+    font-size: 0;
+}
+.email {
+    width: 14.4rem;
+    height: 2.5rem;
+    padding-left: 0.8125rem;
+    border: 0.1rem solid #e5e5e5;
+}
+::placeholder {
+    color: rgba(204, 204, 204, 255);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+.btn-submit {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #95e1d3;
+    border: 0.25rem solid #95e1d3;
+}

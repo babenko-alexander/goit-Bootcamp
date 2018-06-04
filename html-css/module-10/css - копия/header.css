@@ -2,7 +2,7 @@
     background-image: linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     padding: 1.9rem 0 14.375rem;
 }
 .top-menu {

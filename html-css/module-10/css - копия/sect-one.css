@@ -23,8 +23,40 @@
     flex-basis: 30%;
 }
 .sect-one__icon {
+    display: inline-block;
     vertical-align: top;
     margin-right: 1.75rem;
+}
+
+.sect-one__icon--alarm {
+    width: 32px;
+    height: 31px;
+    background: url('../img/css_sprites.png') -10px -10px;
+}
+.sect-one__icon--line {
+    width: 32px;
+    height: 32px;
+    background: url('../img/css_sprites.png') -270px -10px;
+}
+.sect-one__icon--comp {
+    width: 32px;
+    height: 28px;
+    background: url('../img/css_sprites.png') -166px -10px;
+}
+.sect-one__icon--book {
+    width: 32px;
+    height: 32px;
+    background: url('../img/css_sprites.png') -62px -10px;
+}
+.sect-one__icon--home {
+    width: 32px;
+    height: 31px;
+    background: url('../img/css_sprites.png') -218px -10px;
+}
+.sect-one__icon--box {
+    width: 32px;
+    height: 32px;
+    background: url('../img/css_sprites.png') -114px -10px;
 }
 .info {
     display: inline-block;

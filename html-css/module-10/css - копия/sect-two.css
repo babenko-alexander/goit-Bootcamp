@@ -66,17 +66,35 @@
     width: 3.5rem;
     height: 3.5rem;
     background-color: #fce38a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0.05rem;
+    margin-right: 0.5%;
     transition: 0.5s;
 }
 .sect-two__icon:last-child {
     margin-right: 0;
 }
+.sect-two__social {
+    width: 50%;
+    height: 50%;
+    fill: #f38181;
+    transition: 0.5s;
+}
+.sect-two__social--fb {
+    transform: translate(79%, 54%);
+}
+.sect-two__social--tw {
+    transform: translate(58%, 58%);
+}
+.sect-two__social--pn {
+    transform: translate(61%, 56%);
+}
+.sect-two__social--ig {
+    transform: translate(55%, 51%);
+}
 .sect-two__icon:hover {
-    background-color: #95e1d3;
+    background-color: #f38181;
+}
+.sect-two__icon:hover .sect-two__social {
+    fill:  #fff;
 }
 .info--sect-two {
     display: block;
