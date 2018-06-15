@@ -1,0 +1,171 @@
+.sect-two {
+    padding: 3.125rem 0 5.125rem;
+}
+.sect-two__par {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: rgba(153, 153, 153, 255);;
+    text-align: center;
+    max-width: 59.5rem;
+    margin: 0 auto 5.625rem;
+}
+.sect-two__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    max-height: 38rem;
+}
+.sect-two__card {
+    position: relative;
+    display: block;
+    width: 23.9375rem;
+    height: 29.5625rem;
+    background-color: #95e1d3;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+.sect-two__ava {
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+}
+.sect-two__card:hover .sect-two__ava {
+    opacity: 0;
+}
+.sect-two__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 23.9375rem;
+    height: 29.5625rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(233, 130, 131, 0.91)), to(rgba(238, 215, 137, 0.91)));
+    background-image: -webkit-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91));
+    background-image: -o-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91));
+    background-image: linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91));
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    opacity: 0;
+}
+.sect-two__card:hover .sect-two__overlay-one {
+    top: -0.5625rem;
+    left: -0.5625rem;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(233, 130, 131, 0.91)), to(rgba(238, 215, 137, 0.91))), url(../img/team/1.png);
+    background-image: -webkit-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/1.png);
+    background-image: -o-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/1.png);
+    background-image: linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+}
+.sect-two__card:hover .sect-two__overlay-two {
+    top: -0.5625rem;
+    left: -0.5625rem;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(233, 130, 131, 0.91)), to(rgba(238, 215, 137, 0.91))), url(../img/team/2.png);
+    background-image: -webkit-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/2.png);
+    background-image: -o-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/2.png);
+    background-image: linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+}
+.sect-two__card:hover .sect-two__overlay-three {
+    top: -0.5625rem;
+    left: -0.5625rem;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(233, 130, 131, 0.91)), to(rgba(238, 215, 137, 0.91))), url(../img/team/3.png);
+    background-image: -webkit-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/3.png);
+    background-image: -o-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/3.png);
+    background-image: linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91)), url(../img/team/3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+}
+.sect-two__icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #fce38a;
+    margin-right: 0.5%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+
+  &:hover {
+    background-color: #f38181;
+  }
+  &:hover .sect-two__social {
+    fill:  #fff;
+  }
+}
+.sect-two__icon:last-child {
+    margin-right: 0;
+}
+//.sect-two__icon:hover {
+//  background-color: #f38181;
+//}
+//.sect-two__icon:hover .sect-two__social {
+//  fill:  #fff;
+//}
+.sect-two__social {
+    width: 50%;
+    height: 50%;
+    fill: #f38181;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.sect-two__social--fb {
+    -webkit-transform: translate(79%, 54%);
+    -ms-transform: translate(79%, 54%);
+    transform: translate(79%, 54%);
+}
+.sect-two__social--tw {
+    -webkit-transform: translate(58%, 58%);
+    -ms-transform: translate(58%, 58%);
+    transform: translate(58%, 58%);
+}
+.sect-two__social--pn {
+    -webkit-transform: translate(61%, 56%);
+    -ms-transform: translate(61%, 56%);
+    transform: translate(61%, 56%);
+}
+.sect-two__social--ig {
+    -webkit-transform: translate(55%, 51%);
+    -ms-transform: translate(55%, 51%);
+    transform: translate(55%, 51%);
+}
+.info--sect-two {
+    display: block;
+    margin-top: 1.9rem;
+}
+.info--sect-two > .info__title {
+    margin-bottom: 0.6rem;
+}
+.centered {
+    text-align: center;
+}
