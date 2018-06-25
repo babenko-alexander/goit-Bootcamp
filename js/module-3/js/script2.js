@@ -83,9 +83,7 @@ if (inVal.toLowerCase() === 'uah') {
     } else {
         alert('Ошибка ввода покупаемой валюты');
     }
-}
-
-if (inVal.toLowerCase() === 'eur') {
+} else if (inVal.toLowerCase() === 'eur') {
     outVal = prompt('Введите валюту, которую хотите купить (UAH/USD)');
     if (outVal.toLowerCase() === "uah") {
         amount = prompt('Введите сумму конвертации');
@@ -96,9 +94,7 @@ if (inVal.toLowerCase() === 'eur') {
     } else {
         alert('Ошибка ввода покупаемой валюты');
     }
-}
-
-if (inVal.toLowerCase() === 'usd') {
+} else if (inVal.toLowerCase() === 'usd') {
     outVal = prompt('Введите валюту, которую хотите купить (UAH/EUR)');
     if (outVal.toLowerCase() === "eur") {
         amount = prompt('Введите сумму конвертации');
@@ -109,6 +105,8 @@ if (inVal.toLowerCase() === 'usd') {
     } else {
         alert('Ошибка ввода покупаемой валюты');
     }
+} else {
+    alert('Ошибка ввода продаваемой валюты');
 }
 
 
